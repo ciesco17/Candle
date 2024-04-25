@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>CiescoLuminique</title>
+	<style>
+body {
+		background-color: #fffbec;
+		margin: 0 15%;
+		font-family: Atteron;
+	}
+
+p {
+            margin-bottom: 20px;
+	    font-size: 1.3em;
+	    text-align: center;
+        }
+
+
+h1 {
+		text-align: center;
+		font-family: Grand Amoura;
+		font-weight: normal;
+		margin-top: 20px;
+		font-size: 5em;
+		color: #56493b;
+	}
+
+h2 {
+		color: black;
+		font-size: 1.3em;
+		text-align: center;
+		font-family: Atteron;
+		font-weight: bold;
+	}
+
+h3 {
+		color: black;
+		font-size: 1.3em;
+		text-align: left;
+		font-family: Atteron;
+		font-weight: normal;
+	}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.topnav a:hover {
+  background-color: #e78f73;
+  color: black;
+}
+
+.topnav a.active {
+  color: black;
+}
+
+.topnav a {
+  float: center;
+  color: #82553c;
+  text-decoration: none;
+  font-size: 17px;
+  width: 12%; 
+  text-align: center; 
+}
+
+.container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+body {
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        }
+        form {
+            margin-top: 20px;
+        }
+        label, input, textarea {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #cb504c;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+	</style>
+</head>
+
+<body>
+<h1>CiescoLuminique</h1>
+
+<div class="topnav">
+  <a href="CiescoLuminique_Home.html">SHOP</a>
+  <a class="active" href="CiescoLuminique_AboutUs.html">ABOUT US</a>
+  <a href="CiescoLuminique_ScentGuide.html">SCENT GUIDE</a>
+  <a href="CiescoLuminique_Blog.html">BLOG</a>
+  <a href="CiescoLuminique_FAQ.html">FAQ</a>
+  <a class="active" href="CiescoLuminique_ContactUs.html">CONTACT</a>
+</div>
+
+  <div id="popup-box" class="modal">
+            <div class="content">
+                <h1 style="color: #e78f73"><br>Contact Us
+                </h1>
+            </div>
+
+<div class="container">
+        <p>Have a question or comment? We'd love to hear from you!</p>
+        <form action="mailto:sierraciesco@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
